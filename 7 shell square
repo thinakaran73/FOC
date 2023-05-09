@@ -1,0 +1,8 @@
+#!/bin/bash
+
+a=2
+
+
+square=$(( $a * $a  ))
+
+echo "square is: $square"

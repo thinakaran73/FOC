@@ -1,0 +1,20 @@
+#!/bin/bash
+# Recursive factorial function
+
+factorial()
+{
+    product=$1
+           
+    # Defining a function to calculate factorial using recursion
+    if((product <= 2)); then
+        echo $product
+    else
+        f=$((product -1))
+        
+# Recursive call
+
+f=$(factorial $f)
+f=$((f*product))
+echo $f
+fi
+}

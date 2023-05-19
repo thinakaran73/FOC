@@ -1,0 +1,5 @@
+#!/bin/bash
+ 
+str="Good morning"
+length=${#str}
+echo "Length of '$str' is $length"
